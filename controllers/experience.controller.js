@@ -6,6 +6,8 @@ exports.createExperience = function(req, res) {
 				name: req.body.name,
 				description: req.body.description,
 				image: req.body.image,
+				year: req.body.year,
+				duration: req.body.duration
 			}
 
 		);

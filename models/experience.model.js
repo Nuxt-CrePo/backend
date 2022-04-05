@@ -5,6 +5,9 @@ let ExperienceSchema = new Schema ({
 	name: String,
 	description: String,
 	image: String,
+	year: Number,
+	duration: String,
+
 });
 
 
